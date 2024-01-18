@@ -1,0 +1,169 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Russo+One&family=Satisfy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* start body section */
+body {
+  font-family: "Roboto Slab", serif;
+}
+/* end body section */
+
+/* start navbar section */
+.navbar {
+  margin: 0;
+  padding: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(191, 55, 219, 0.9630295355446866) 0%,
+    rgba(185, 68, 89, 1) 39%,
+    rgba(110, 154, 206, 1) 72%,
+    rgba(99, 187, 185, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.navbar .logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.nav-heading h1 {
+  font-family: "Russo One", sans-serif;
+  text-align: center;
+  font-size: 2.3rem;
+  color: rgb(0, 0, 0);
+}
+
+.nav-menu {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.nav-menu a {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(7, 120, 120);
+  padding: 10px;
+  margin: 5px 50px;
+  border-radius: 10px;
+}
+.nav-menu a:hover {
+  background-color: rgb(234, 112, 112);
+  color: black;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+  width: 100%;
+}
+/* clear div */
+.navbar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* end navbar section */
+
+/* start profile section */
+p {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+a{
+  text-decoration: none;
+  color: rgb(138, 46, 46);
+}
+h2{
+  font-size: 1.5rem;
+  font-family: "Russo One", sans-serif;
+}
+.dotted{
+  border: dotted;
+  border-bottom: none;
+  margin: 10px auto;
+  width: 100px;
+}
+.profile {
+  padding: 70px 15px 175px;
+  position: relative;
+  text-align: center;
+  background: url(./image/rashedjaman1.jpg)
+}
+.profile .top-image {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 150px;
+}
+.profile .profile-text h1 {
+  margin-top: 120px;
+  font-family: "Satisfy", cursive;
+  font-size: 2.5rem;
+  color: tomato;
+}
+.profile .profile-text p {
+  color: rgb(226, 216, 37);
+  margin: 10px 35px;
+}
+
+.profile .bottom-image {
+  position: absolute;
+  left: 40px;
+}
+/* end profile section */
+
+/* start about section */
+
+
+.about-me{
+  background-color: #39a4ac;
+  padding: 1% 6%;
+  color: white;
+  text-align: center;
+}
+
+.about-image img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: #45595b 5px solid;
+}
+
+.about-text p{
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.about-me a:hover{
+  color: #e4e80e;
+}
+.about-hr{
+  margin: 5px auto;
+}
+.about-me::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+/* end about section */
+
+.footer{
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+  
+}
