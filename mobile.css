@@ -99,6 +99,7 @@ h2{
   padding: 70px 15px 175px;
   position: relative;
   text-align: center;
+  height: 100vh;
   background: url(./image/rashedjaman1.jpg)
 }
 .profile .top-image {
